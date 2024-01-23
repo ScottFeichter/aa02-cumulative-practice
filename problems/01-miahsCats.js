@@ -2,7 +2,7 @@
 Write a FAT ARROW function `miahsCats(obj)` that takes an object, containing
 extremely important information about Miah's cats as an argument
 and returns an integer representing how many keys and values
-in the input object containing the string "cute" or "adorable".
+in the input object containing the string "cute" or "adorable"./
 
 ****NOTE: You should account for upper and lowercase letters!****
 Checkout MDN documentation on how to solve this issue.
@@ -22,13 +22,13 @@ miahsCats(obj3) // 3
 
 ***********************************************************************/
 
-const miahsCats = obj => {
-    // Your code here 
-}
+const miahsCats = (obj) => {
+  // Your code here
+};
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
-try{
-    module.exports = miahsCats;
-} catch(e) {
-    module.exports = null;
+try {
+  module.exports = miahsCats;
+} catch (e) {
+  module.exports = null;
 }
